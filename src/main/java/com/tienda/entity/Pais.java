@@ -27,16 +27,16 @@ public class Pais implements Serializable{
         return id;
     }
 
-    public void setId(long i) {
-        this.id = i;
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getPais() {
         return pais;
     }
 
-    public void setPais(String p) {
-        this.pais = p;
+    public void setPais(String pais) {
+        this.pais = pais;
     }
     
 }
