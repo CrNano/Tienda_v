@@ -5,6 +5,7 @@
 package com.tienda.repository;
 
 import com.tienda.entity.Persona;
+import java.util.List;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
@@ -14,6 +15,8 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface PersonaRepository extends CrudRepository<Persona,Long>{
+
+    public List<Persona> findByApellido1(String apellido1);
 
     
 }
