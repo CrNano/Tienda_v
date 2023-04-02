@@ -18,5 +18,5 @@ public interface PersonaRepository extends CrudRepository<Persona,Long>{
 
     public List<Persona> findByApellido1(String apellido1);
 
-    
+    Persona findByNombre(String nombre);
 }
