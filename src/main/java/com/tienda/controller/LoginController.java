@@ -3,16 +3,20 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.tienda.controller;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+
 /**
  *
- * @author johan
+ * @author menoc
  */
 @Controller
 public class LoginController {
+
     @GetMapping("/login")
     public String index() {
         return "/login";
     }
+
 }
